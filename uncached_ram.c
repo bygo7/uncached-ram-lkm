@@ -19,6 +19,8 @@
 #include <linux/mm.h>
 #include <linux/slab.h>
 
+#pragma GCC diagnostic warning "-Wimplicit-function-declaration" 
+
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("lemonsqueeze");
 MODULE_DESCRIPTION("Map uncached mem to userspace.");
